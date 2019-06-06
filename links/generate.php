@@ -1,6 +1,10 @@
 <?php
 $links = [
     '7.2' => 'https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/sun_checks.xml',
+    'A.1' => 'https://github.com/fracz/refactor-extractor/tree/master/results-java/ReactiveX--RxJava',
+    'B.1' => 'https://github.com/fracz/refactor-extractor/tree/master/results-java/JetBrains--kotlin',
+    'B.2' => 'https://github.com/JetBrains/kotlin/commit/003182f499651388aa3ca629752ef0207d52a412',
+    'B.3' => 'https://github.com/fracz/refactor-extractor/tree/master/results-java/JetBrains--kotlin/003182f499651388aa3ca629752ef0207d52a412',
 ];
 $list = [];
 foreach ($links as $linkLabel => $linkUrl) {
